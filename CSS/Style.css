@@ -240,7 +240,7 @@ header{
     display: grid;      /* Fazer layout de forma ágil */
     grid-template-columns: repeat(16, 1fr);      /* Editar colunas do Grid, aqui estamos criando 16 colunas com 1 frame cada vez */
     grid-template-rows: repeat(6, 6rem);        /* Editar linhas do Grid, aqui estamos criando 6 linhas com determinada altura */
-    row-gap: .2rem;         /* Espaço entre as linhas */
+    row-gap: .7rem;         /* Espaço entre as linhas */
 }
 
 .conhecimento:nth-child(1){     /* Tratando-se do primeiro filho */
