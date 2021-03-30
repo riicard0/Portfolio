@@ -9,18 +9,23 @@
     text-decoration: none;
 }
 
+/* VARIÁVEIS */
+
 :root{
     --font-primary: "Baloo Da 2", serif;
     --font-secondary: "Josefin Slab", serif;
     --font-action: "Mulish", serif;
 }
 
+/* FIM VARIÁVEIS */
+
 html{
     scroll-behavior: smooth;
 }
 
+/* HAMBURGUER MENU LATERAL */
+
 .hamburguer{
-    /*background-color: red;*/
     width: 2rem;
     height: 2rem;
     position: fixed;
@@ -86,6 +91,10 @@ html{
 .show-menu .hamburguer:hover span{
     opacity: 1;
 }
+
+/* FIM HAMBURGUER MENU LATERAL */
+
+/* HOME */
 
 header{
     width: 100%;
@@ -166,6 +175,10 @@ header{
     color: #000;
 }
 
+/* FIM HOME */
+
+/* MENU LATERAL */
+
 @keyframes moveBanner{
     0%{
         transform: translateY(10rem) rotateY(-30deg);
@@ -238,6 +251,10 @@ header{
 .social-media i:hover{
     background-color: #a044ff;
 }
+
+/* FIM MENU LATERAL */
+
+/* CONHECIMENTOS */
 
 /* Grid Layout */
 
@@ -331,6 +348,10 @@ header{
 
 /* Fim Grid Layout */
 
+/* FIM CONHECIMENTOS */
+
+/* PROJETOS */
+
 .projetos{
     display: flex;
     justify-content: space-evenly;
@@ -360,7 +381,7 @@ header{
     transition: opacity .3s;
 }
 .card:hover .card-img-wrapper{
-    opacity: .5;
+    opacity: .7;
 }
 
 .card-info{
@@ -417,6 +438,10 @@ header{
     opacity: 1;
     visibility: visible;
 }
+
+/* FIM PROJETOS */
+
+/* CONTATO */
 
 .sessao-contato{
     width: 100%;
@@ -516,6 +541,10 @@ header{
     
 }
 
+/* FIM CONTATO */
+
+/* ORÇAMENTO */
+
 .sessao-orcamento{
     width: 100%;
     height: 100vh;
@@ -561,18 +590,24 @@ header{
 
 .sessao-orcamento label{
     font-family: var(--font-secondary);
-    font-size: 1.5rem;
-    font-weight: bold;;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
 }
 
 .sessao-orcamento input[type="number"]{
     font-family: var(--font-secondary);
     width: 4rem;
+    margin-top: .5rem;
     font-size: 2rem;
     outline: none;
     border-radius: 10px;
     border: none;
     padding: 0.3rem;
+}
+
+.sessao-orcamento input[type="checkbox"]{
+    margin-top: 1.7rem;
 }
 
 .btn-orcamento{
@@ -581,6 +616,10 @@ header{
     cursor: pointer;
     grid-column: 2;
 }
+
+/* FIM ORÇAMENTO */
+
+/* RODAPÉ */
 
 footer{
     width: 100%;
@@ -613,6 +652,10 @@ footer{
     display: flex;
 }
 
+/* FIM RODAPÉ */
+
+/* BACK HOME */
+
 #link-topo{
     position: fixed;
     right: 3rem;
@@ -629,4 +672,6 @@ footer{
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #0000009;
 }
+
+/* FIM BACK HOME */
 

@@ -14,7 +14,7 @@
     <body>
         
         <div class="container">
-
+            <!-- HAMBURGUER MENU LATERAL -->
             <div class="hamburguer">
                 <div class="line" id="line1"></div>
                 <div class="line" id="line2"></div>
@@ -22,6 +22,7 @@
                 <span>Fechar</span>
             </div>
 
+            <!-- HOME -->
             <header id="home">
                 <div class="img-wrapper">
                     <img src="img/bg2.jpg" alt="background">
@@ -33,6 +34,7 @@
                 </div>
             </header>
 
+            <!-- MENU LATERAL -->
             <aside class="sidebar">
                 <nav>
                     <ul class="menu">
@@ -50,6 +52,7 @@
                 </div>
             </aside>
 
+            <!-- CONHECIMENTOS -->
             <section class="sessao-conhecimentos" id="conhecimentos">
                 <div class="sessao-header">
                     <h1>Conhecimento</h1>
@@ -115,6 +118,7 @@
                 </div>
             </section>
 
+            <!-- PROJETOS -->
             <section class="sessao-projetos" id="projetos">
                 <div class="sessao-header">
                     <h1>Projetos</h1>
@@ -156,6 +160,7 @@
                 </div>
             </section>
 
+            <!-- CONTATO -->
             <section class="sessao-contato" id="contato">
                 <div class="contato-wrapper">
                     <div class="contato-left"></div>
@@ -180,6 +185,7 @@
                 </div>
             </section>
 
+            <!-- ORÇAMENTO -->
             <section class="sessao-orcamento" id="orcamento">
                 <div class="orcamento-wrapper">
                     <h1>Faça um orçamento</h1>
@@ -200,12 +206,14 @@
                             </div>
                         </div>
                         <label for="prazo">Prazo</label>
-                        <input type="range" name="prazo" id="prazo">
+                        <input type="range" name="prazo" id="prazo" min="1" max="10" value="10">
+                        <label id="preco">R$0,00</label>
                         <button class="btn btn-orcamento" type="submit">Enviar</button>
                     </form>
                 </div>
             </section>
 
+            <!-- RODAPÉ -->
             <footer>
                 <div class="footer-content">
                     <p>Copyright &copy; 2021, ETECIA DS - Todos os direitos reservados</p>
@@ -219,6 +227,7 @@
                 </div>
             </footer>
 
+            <!-- BACK HOME -->
             <a href="#home" id="link-topo">
                 <i class="fas fa-arrow-up"></i>
             </a>
